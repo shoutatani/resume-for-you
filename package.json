@@ -1,0 +1,14 @@
+{
+  "name": "resume-for-you",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/shoutatani/resume-for-you.git",
+  "author": "shoutatani <10176164+shoutatani@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "./updateLastModifiedDate.sh | md-to-pdf > resume.pdf"
+  },
+  "dependencies": {
+    "md-to-pdf": "^5.2.1"
+  }
+}
